@@ -1,0 +1,47 @@
+.container {
+  padding: 12px;
+}
+
+.controls {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+/* dropdown estilo más grande y acorde al sitio */
+.select {
+  padding: 10px 12px;
+  font-size: 14px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  background: #fff;
+  min-width: 280px;
+  max-width: 420px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+}
+
+/* input cantidad más ancho y consistente */
+.qtyInput {
+  padding: 8px 10px;
+  font-size: 14px;
+  width: 110px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+}
+
+/* botones */
+.addButton, .submitButton, .removeButton {
+  background: #2563eb; /* azul */
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.addButton:hover, .submitButton:hover, .removeButton:hover {
+  background: #1e40af;
+}

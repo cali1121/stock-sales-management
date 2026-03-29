@@ -1,0 +1,17 @@
+.tableContainer {
+  max-height: 420px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  padding: 0.25rem;
+  background: #fff;
+}
+.tableContainer table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.tableContainer th,
+.tableContainer td {
+  padding: 0.5rem;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}

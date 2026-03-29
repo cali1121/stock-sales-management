@@ -1,0 +1,62 @@
+/* Estilos para el contenedor del encabezado (Header) */
+.header-container {
+  background-color: #1a202c; /* bg-gray-800 */
+  color: #fff;
+  padding: 1rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Estilos para el título de la aplicación */
+.app-title-header {
+  font-size: 1.25rem; 
+  font-weight: 700; 
+}
+
+/* Estilos para el botón de cerrar sesión */
+.logout-button {
+  background-color: #ef4444;
+  color: #fff;
+  padding: 0.5rem 1rem; 
+  border-radius: 0.375rem; 
+  font-weight: 600; 
+  transition-property: background-color; 
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+}
+
+.logout-button:hover {
+  background-color: #dc2626; 
+}
+
+/* Estilos para el botón de registro (Link) */
+.register-button {
+  background-color: #22c55e; 
+  color: #fff;
+  padding: 0.5rem 1rem; 
+  border-radius: 0.375rem; 
+  font-weight: 600; 
+  transition-property: background-color; 
+  transition-duration: 300ms; 
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+}
+
+.register-button:hover {
+  background-color: #16a34a;
+}
+.login-button {
+  background-color: #22c55e; 
+  color: #fff;
+  padding: 0.5rem 1rem; 
+  border-radius: 0.375rem; 
+  font-weight: 600; 
+  transition-property: background-color; 
+  transition-duration: 300ms; 
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+}
+
+.login-button:hover {
+  background-color: #16a34a; 
+}
